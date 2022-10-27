@@ -28,7 +28,15 @@
     html {
         font-size: 50%;
     }
-    .sidebar {
+    .sidebar.active {
         width: 100%;
+        flex-shrink: 0;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .btn-flex {
+        flex-flow: column;
+        grid-template: 0;
     }
 }

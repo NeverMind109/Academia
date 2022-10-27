@@ -33,6 +33,33 @@ sidebarCloseBtn.addEventListener("click", () => {
   sidebar.classList.remove("active");
 });
 
+// toggle
+const themeToggleBtn = document.getElementById("theme-btn");
+let darkMode = localStorage.getItem("dark-mode");
+
+const enableDarkMode = () => {
+  themeToggleBtn.classList.replace("fa-sun", "fa-moon");
+  document.body.classList.add("dark");
+  localStorage.setItem("dark-mode", "enabled");
+};
+const disableDarkMode = () => {
+  themeToggleBtn.classList.replace("fa-moon", "fa-sun");
+  document.body.classList.remove("dark");
+  localStorage.setItem("dark-mode", "disabled");
+};
+
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+themeToggleBtn.addEventListener("click", (e) => {
+  let darkMode = localStorage.getItem("dark-mode");
+  if (darkMode === "disabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});
+
 // scroll event
 window.addEventListener("scroll", () => {
   profile.classList.remove("active");
