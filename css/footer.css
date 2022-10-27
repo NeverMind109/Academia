@@ -1,0 +1,19 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    background-color: var(--white-color);
+    border-top: var(--border);
+    padding: 2.5rem 2rem;
+}
+.footer__text {
+    font-size: 2rem;
+    color: var(--black-color);
+}
+.footer__text span {
+    color: var(--main-color);
+}

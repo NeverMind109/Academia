@@ -1,0 +1,38 @@
+.profile {
+    position: absolute;
+    top: 120%;
+    right: 2rem;
+    width: 30rem;
+    text-align: center;
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: 0.2s linear;
+}
+.profile.active {
+    transform: scale(1);
+}
+.profile__avatar {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+.profile__name {
+    display: block;
+    font-size: 2rem;
+    color: var(--black-color);
+    margin-bottom: 1rem;
+}
+.profile__position {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+}
+.profile__btn {
+    margin-bottom: 0.5rem;
+}

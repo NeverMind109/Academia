@@ -1,0 +1,26 @@
+.navbar__list {
+    list-style-type: none;
+}
+.navbar__item {
+    margin: 0.5rem 0;
+}
+.navbar__link {
+    display: block;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+.navbar__icon {
+    color: var(--main-color);
+    margin-right: 1.5rem;
+    transition: 0.2s;
+}
+.navbar__text {
+    color: var(--light-color);
+}
+.navbar__link:hover {
+    background-color: var(--light-bg);
+}
+.navbar__link:hover .navbar__icon {
+    margin-right: 2.5rem;
+}
