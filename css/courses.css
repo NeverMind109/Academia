@@ -1,6 +1,3 @@
-.courses {
-    width: 100%;
-}
 .courses__wrapper {
     display: grid;
     align-items: flex-start;

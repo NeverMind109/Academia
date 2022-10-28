@@ -1,0 +1,34 @@
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+.about__image {
+    flex: 1 1 40rem;
+}
+.about__img {
+    width: 100%;
+    height: 50rem;
+}
+.about__content {
+    flex: 1 1 40rem;
+    text-align: center;
+}
+.about__title {
+    font-size: 2.5rem;
+    color: var(--black-color);
+    margin-bottom: 1rem;
+}
+.about__descr {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+}
+.about__figures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
