@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academia - watch</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__logo" href="index.html">Academia</a>
+        <form class="header__form" action="#">
+          <input
+            class="header__search"
+            type="search"
+            placeholder="Search couses..."
+            maxlength="100"
+            required
+          />
+          <button class="fas fa-search header__btn" type="submit"></button>
+        </form>
+        <div class="header__icons">
+          <button class="fas fa-bars header__icon" id="menu-btn"></button>
+          <button
+            class="fas fa-search header__icon header__search-mobile"
+            id="search-btn"
+          ></button>
+          <button class="fas fa-user header__icon" id="user-btn"></button>
+          <button class="fas fa-sun header__icon" id="theme-btn"></button>
+        </div>
+        <div class="profile header__profile">
+          <img class="profile__avatar" src="./img/pic-1.jpg" alt="Jack Brown" />
+          <span class="profile__name">Jack Brown</span>
+          <span class="profile__position">student</span>
+          <a class="btn btn-block btn-main profile__btn" href="profile.html"
+            >view profile</a
+          >
+          <div class="btn-flex">
+            <a
+              class="btn btn-block btn-orange profile__initialize"
+              href="login.html"
+              >login</a
+            >
+            <a
+              class="btn btn-block btn-orange profile__initialize"
+              href="register.html"
+              >register</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <aside class="sidebar">
+        <button class="btn sidebar__close-btn" id="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="profile sidebar__profile">
+          <img class="profile__avatar" src="./img/pic-1.jpg" alt="Jack Brown" />
+          <span class="profile__name">Jack Brown</span>
+          <span class="profile__position">student</span>
+          <a class="btn btn-block btn-main profile__btn" href="profile.html"
+            >view profile</a
+          >
+        </div>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="index.html">
+                <i class="fas fa-home navbar__icon"></i>
+                <span class="navbar__text">Home</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="about.html">
+                <i class="fas fa-question navbar__icon"></i>
+                <span class="navbar__text">About Us</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="courses.html">
+                <i class="fas fa-graduation-cap navbar__icon"></i>
+                <span class="navbar__text">Courses</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="teachers.html">
+                <i class="fas fa-chalkboard-user navbar__icon"></i>
+                <span class="navbar__text">Teachers</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="contact.html">
+                <i class="fas fa-headset navbar__icon"></i>
+                <span class="navbar__text">Contact Us</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="content__wrapper">
+        <section class="watch-video">
+          <div class="watch-video__content">
+            <video
+              class="watch-video__video"
+              src="./video/vid-1.mp4"
+              poster="./img/post-1-1.png"
+              controls
+              autoplay
+            ></video>
+            <h2 class="watch-video__title">Complete HTML Tutorial (Part 01)</h2>
+            <div class="watch-video__info">
+              <div class="watch-video__index">
+                <i class="fas fa-calendar watch-video__icon"></i>
+                <span class="watch-video__text">21-08-2022</span>
+              </div>
+              <div class="watch-video__index">
+                <i class="fas fa-heart watch-video__icon"></i>
+                <span class="watch-video__text">45 likes</span>
+              </div>
+            </div>
+            <div class="watch-video__author">
+              <img
+                class="watch-video__avatar"
+                src="./img/pic-2.jpg"
+                alt="John Doe"
+              />
+              <div class="watch-video__author-info">
+                <h3 class="watch-video__name">John Doe</h3>
+                <span class="watch-video__position">developer</span>
+              </div>
+            </div>
+            <form class="watch-video__form" action="#">
+              <a
+                class="btn btn-inline btn-main watch-video__back-btn"
+                href="playlist.html"
+                >view playlist</a
+              >
+              <button class="btn watch-video__like-btn">
+                <i class="far fa-heart watch-video__like-icon"></i>
+                <span class="watch-video__like-text">like</span>
+              </button>
+            </form>
+            <div class="watch-video__details">
+              <p class="watch-video__descr">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatem commodi culpa rerum rem quibusdam totam fuga iusto
+                dolor, aliquam mollitia ea qui eum officiis accusantium
+                assumenda cupiditate odio, doloribus ut.
+              </p>
+              <p class="watch-video__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente voluptatem repellat perspiciatis quidem fugit
+                laudantium provident a pariatur, facere fuga.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="comments">
+          <h2 class="section-title">Add a comment</h2>
+          <form class="comments__add-form" action="#">
+            <textarea
+              class="comments__textarea"
+              placeholder="Write down your comment..."
+              maxlength="1000"
+              required
+            ></textarea>
+            <button class="btn btn-inline btn-main" type="submit">
+              add comment
+            </button>
+          </form>
+          <h3 class="section-title">6 comments</h3>
+          <div class="comments__wrapper">
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-1.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">21-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                neque!
+              </div>
+              <form class="comment__btns-form" action="#">
+                <button
+                  class="btn btn-inline btn-orange comment__edit"
+                  type="submit"
+                >
+                  edit comment
+                </button>
+                <button
+                  class="btn btn-inline btn-red comment__delete"
+                  type="submit"
+                >
+                  delete comment
+                </button>
+              </form>
+            </div>
+
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-2.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">15-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                dolore sapiente possimus.
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-3.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">15-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius.
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-4.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">12-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                assumenda officiis sed aperiam enim minus ullam recusandae?
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-5.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">10-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores!.
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment__user">
+                <img
+                  class="comment__user-avatar"
+                  src="./img/pic-6.jpg"
+                  alt="Jonh Doe"
+                />
+                <div class="comment__user-info">
+                  <span class="comment__user-name">John Doe</span>
+                  <span class="comment__date">10-08-2022</span>
+                </div>
+              </div>
+              <div class="comment__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit natus voluptatum eveniet repellendus sed inventore.
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; Copyright @ 2022 by <span>Lorem ipsum</span> | all rights
+        reserved
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

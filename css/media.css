@@ -49,4 +49,26 @@
         flex: 1 1 100%;
         justify-content: center;
     }
+    .playlist__thumb {
+        height: 20rem;
+    }
+    .watch-video__back-btn {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .watch-video__like-btn {
+        width: 100%;
+    }
+    .comment__btns-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .comment__edit {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .comment__delete {
+        width: 100%;
+    }
 }
