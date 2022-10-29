@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academia - contact us</title>
+    <title>Academia - register</title>
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -112,73 +112,76 @@
         </nav>
       </aside>
       <div class="content__wrapper">
-        <section class="contact">
-          <div class="contact__wrapper">
-            <div class="contact__image">
-              <img class="contact__img" src="./img/contact-img.svg" alt="" />
-            </div>
-            <form class="contact__form" action="#">
-              <h2 class="contact__title">get in touch</h2>
-              <input
-                class="contact__input"
-                placeholder="Enter your name"
-                type="text"
-                maxlength="100"
-                required
-              />
-              <input
-                class="contact__input"
-                placeholder="Enter your email"
-                type="email"
-                maxlength="50"
-                required
-              />
-              <input
-                class="contact__input"
-                placeholder="Enter your phone number"
-                type="tel"
-                maxlength="12"
-                required
-              />
-              <textarea
-                class="contact__textarea"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-              <button class="btn btn-inline btn-main" type="submit">
-                Send message
-              </button>
-            </form>
-          </div>
-          <div class="contact__content">
-            <div class="contact__box">
-              <i class="fas fa-phone contact__box-icon"></i>
-              <span class="contact__box-heading">phone number</span>
-              <a class="contact__box-info" href="tel:1234567890"
-                >123-456-7890</a
-              >
-              <a class="contact__box-info" href="tel:1112223333"
-                >111-222-3333</a
-              >
-            </div>
-            <div class="contact__box">
-              <i class="fas fa-envelope contact__box-icon"></i>
-              <span class="contact__box-heading">email address</span>
-              <a class="contact__box-info" href="mailto:example@mail.com"
-                >example@mail.com</a
-              >
-              <a class="contact__box-info" href="mailto:example@mail.com"
-                >example@mail.com</a
-              >
-            </div>
-            <div class="contact__box">
-              <i class="fas fa-map-marker-alt contact__box-icon"></i>
-              <span class="contact__box-heading">office address</span>
-              <a class="contact__box-info" href="#"
-                >3477 Pearl Street, Sacramento, CA, USA</a
-              >
-            </div>
-          </div>
+        <section class="profile-form">
+          <form
+            class="profile-form__form"
+            action="#"
+            enctype="multipart/form-data"
+          >
+            <h2 class="profile-form__title">register new profile</h2>
+            <label class="profile-form__label" for="reg-name"
+              >your name <span>*</span></label
+            >
+            <input
+              class="profile-form__input"
+              id="reg-name"
+              type="text"
+              placeholder="Enter your name"
+              maxlength="100"
+              required
+            />
+
+            <label class="profile-form__label" for="reg-email"
+              >your email <span>*</span></label
+            >
+            <input
+              class="profile-form__input"
+              id="reg-email"
+              type="email"
+              placeholder="Enter your email"
+              maxlength="50"
+              required
+            />
+
+            <label class="profile-form__label" for="reg-pass"
+              >your password <span>*</span></label
+            >
+            <input
+              class="profile-form__input"
+              id="reg-pass"
+              type="password"
+              placeholder="Enter your new password"
+              maxlength="100"
+              required
+            />
+
+            <label class="profile-form__label" for="reg-pass-confirm"
+              >confirm password <span>*</span></label
+            >
+            <input
+              class="profile-form__input"
+              id="reg-pass-confirm"
+              type="password"
+              placeholder="Confirm your password"
+              maxlength="100"
+              required
+            />
+
+            <label class="profile-form__label" for="reg-avatar"
+              >select your profile picture <span>*</span></label
+            >
+            <input
+              class="profile-form__input"
+              id="reg-avatar"
+              type="file"
+              accept="image/*"
+              required
+            />
+
+            <button class="btn btn-block btn-main" type="submit">
+              Register
+            </button>
+          </form>
         </section>
       </div>
     </main>

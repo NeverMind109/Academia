@@ -1,0 +1,73 @@
+.profile-page__wrapper {
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.profile-page__user {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.profile-page__avatar {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.profile-page__name {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--black-color);
+    margin-bottom: 0.5em;
+}
+.profile-page__position {
+    display: block;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+}
+.profile-page__statistic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+.profile-page__box {
+    flex: 1 1 30rem;
+    background-color: var(--light-bg);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.profile-page__head {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    margin-bottom: 1rem;
+}
+.profile-page__info {
+    margin-bottom: 1rem;
+}
+.profile-page__icon {
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 2rem;
+    line-height: 4.4rem;
+    color: var(--white-color);
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: var(--black-color);
+}
+.profile-page__figure {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 0.5rem;
+}
+.profile-page__descr {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}

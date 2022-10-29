@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academia - contact us</title>
+    <title>Academia - profile</title>
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -112,71 +112,60 @@
         </nav>
       </aside>
       <div class="content__wrapper">
-        <section class="contact">
-          <div class="contact__wrapper">
-            <div class="contact__image">
-              <img class="contact__img" src="./img/contact-img.svg" alt="" />
-            </div>
-            <form class="contact__form" action="#">
-              <h2 class="contact__title">get in touch</h2>
-              <input
-                class="contact__input"
-                placeholder="Enter your name"
-                type="text"
-                maxlength="100"
-                required
+        <section class="profile-page">
+          <h2 class="section-title">profile details</h2>
+          <div class="profile-page__wrapper">
+            <div class="profile-page__user">
+              <img
+                class="profile-page__avatar"
+                src="./img/pic-1.jpg"
+                alt="John Doe"
               />
-              <input
-                class="contact__input"
-                placeholder="Enter your email"
-                type="email"
-                maxlength="50"
-                required
-              />
-              <input
-                class="contact__input"
-                placeholder="Enter your phone number"
-                type="tel"
-                maxlength="12"
-                required
-              />
-              <textarea
-                class="contact__textarea"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-              <button class="btn btn-inline btn-main" type="submit">
-                Send message
-              </button>
-            </form>
-          </div>
-          <div class="contact__content">
-            <div class="contact__box">
-              <i class="fas fa-phone contact__box-icon"></i>
-              <span class="contact__box-heading">phone number</span>
-              <a class="contact__box-info" href="tel:1234567890"
-                >123-456-7890</a
-              >
-              <a class="contact__box-info" href="tel:1112223333"
-                >111-222-3333</a
+              <h3 class="profile-page__name">John Doe</h3>
+              <span class="profile-page__position">student</span>
+              <a
+                class="btn btn-inline btn-main profile-page__update"
+                href="update.html"
+                >update profile</a
               >
             </div>
-            <div class="contact__box">
-              <i class="fas fa-envelope contact__box-icon"></i>
-              <span class="contact__box-heading">email address</span>
-              <a class="contact__box-info" href="mailto:example@mail.com"
-                >example@mail.com</a
-              >
-              <a class="contact__box-info" href="mailto:example@mail.com"
-                >example@mail.com</a
-              >
-            </div>
-            <div class="contact__box">
-              <i class="fas fa-map-marker-alt contact__box-icon"></i>
-              <span class="contact__box-heading">office address</span>
-              <a class="contact__box-info" href="#"
-                >3477 Pearl Street, Sacramento, CA, USA</a
-              >
+            <div class="profile-page__statistic">
+              <div class="profile-page__box">
+                <div class="profile-page__head">
+                  <i class="fas fa-bookmark profile-page__icon"></i>
+                  <div class="profile-page__info">
+                    <span class="profile-page__figure">4</span>
+                    <span class="profile-page__descr">saved playlists</span>
+                  </div>
+                </div>
+                <a class="btn btn-inline btn-main profile-page__link" href="#"
+                  >view playlists</a
+                >
+              </div>
+              <div class="profile-page__box">
+                <div class="profile-page__head">
+                  <i class="fas fa-heart profile-page__icon"></i>
+                  <div class="profile-page__info">
+                    <span class="profile-page__figure">33</span>
+                    <span class="profile-page__descr">videos liked</span>
+                  </div>
+                </div>
+                <a class="btn btn-inline btn-main profile-page__link" href="#"
+                  >view liked</a
+                >
+              </div>
+              <div class="profile-page__box">
+                <div class="profile-page__head">
+                  <i class="fas fa-comment profile-page__icon"></i>
+                  <div class="profile-page__info">
+                    <span class="profile-page__figure">12</span>
+                    <span class="profile-page__descr">videos commented</span>
+                  </div>
+                </div>
+                <a class="btn btn-inline btn-main profile-page__link" href="#"
+                  >view comments</a
+                >
+              </div>
             </div>
           </div>
         </section>

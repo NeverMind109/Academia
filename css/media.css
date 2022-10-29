@@ -83,4 +83,7 @@
     .contact__img {
         height: auto;
     }
+    .update__form {
+        width: 100%;
+    }
 }

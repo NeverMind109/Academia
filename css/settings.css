@@ -85,31 +85,19 @@ a {
    transition: 0.3s;
    cursor: pointer;
 }
-/* .btn,
-.delete-btn,
-.option-btn */
 .btn-block {
    display: block;
    width: 100%;
 }
-/* .inline-btn,
-.inline-option-btn,
-.inline-delete-btn  */
 .btn-inline {
    display: inline-block;
 }
-/* .btn,
-.inline-btn  */
 .btn-main {
    background-color: var(--main-color);
 }
-/* .option-btn,
-.inline-option-btn  */
 .btn-orange {
    background-color:var(--orange-color);
 }
-/* .delete-btn,
-.inline-delete-btn  */
 .btn-red {
    background-color: var(--red-color);
 }
