@@ -1,0 +1,83 @@
+.teachers__form {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+.teachers__search {
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: var(--black-color);
+    background: none;
+}
+.teachers__search-btn {
+    font-size: 2rem;
+    color: var(--black-color);
+    background: none;
+}
+.teachers__search-btn {
+    color: var(--main-color);
+}
+.teachers__wrapper {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.teacher {
+    border: 0.5rem;
+    padding: 2rem;
+    background-color: var(--white-color);
+}
+.teachers__offer {
+    text-align: center;
+}
+.teachers__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--black-color);
+    margin-bottom: 0.5rem;
+}
+.teachers__descr {
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+.teacher__head {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+.teacher__img {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.teacher__name {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--black-color);
+    margin-bottom: 0.5rem;
+}
+.teacher__position {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+.teacher__statistic {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-bottom: 1rem;
+}
+.teacher__statistic span {
+    color: var(--main-color);
+}

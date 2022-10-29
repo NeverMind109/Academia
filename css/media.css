@@ -28,6 +28,12 @@
     .about__img {
         height: auto;
     }
+    .contact__wrapper {
+        flex-direction: column;
+    }
+    .contact__image {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -70,5 +76,11 @@
     }
     .comment__delete {
         width: 100%;
+    }
+    .contact__image {
+        flex: auto;
+    }
+    .contact__img {
+        height: auto;
     }
 }

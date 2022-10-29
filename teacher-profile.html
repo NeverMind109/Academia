@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academia - teacher</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__logo" href="index.html">Academia</a>
+        <form class="header__form" action="#">
+          <input
+            class="header__search"
+            type="search"
+            placeholder="Search couses..."
+            maxlength="100"
+            required
+          />
+          <button class="fas fa-search header__btn" type="submit"></button>
+        </form>
+        <div class="header__icons">
+          <button class="fas fa-bars header__icon" id="menu-btn"></button>
+          <button
+            class="fas fa-search header__icon header__search-mobile"
+            id="search-btn"
+          ></button>
+          <button class="fas fa-user header__icon" id="user-btn"></button>
+          <button class="fas fa-sun header__icon" id="theme-btn"></button>
+        </div>
+        <div class="profile header__profile">
+          <img class="profile__avatar" src="./img/pic-1.jpg" alt="Jack Brown" />
+          <span class="profile__name">Jack Brown</span>
+          <span class="profile__position">student</span>
+          <a class="btn btn-block btn-main profile__btn" href="profile.html"
+            >view profile</a
+          >
+          <div class="btn-flex">
+            <a
+              class="btn btn-block btn-orange profile__initialize"
+              href="login.html"
+              >login</a
+            >
+            <a
+              class="btn btn-block btn-orange profile__initialize"
+              href="register.html"
+              >register</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <aside class="sidebar">
+        <button class="btn sidebar__close-btn" id="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="profile sidebar__profile">
+          <img class="profile__avatar" src="./img/pic-1.jpg" alt="Jack Brown" />
+          <span class="profile__name">Jack Brown</span>
+          <span class="profile__position">student</span>
+          <a class="btn btn-block btn-main profile__btn" href="profile.html"
+            >view profile</a
+          >
+        </div>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="index.html">
+                <i class="fas fa-home navbar__icon"></i>
+                <span class="navbar__text">Home</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="about.html">
+                <i class="fas fa-question navbar__icon"></i>
+                <span class="navbar__text">About Us</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="courses.html">
+                <i class="fas fa-graduation-cap navbar__icon"></i>
+                <span class="navbar__text">Courses</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="teachers.html">
+                <i class="fas fa-chalkboard-user navbar__icon"></i>
+                <span class="navbar__text">Teachers</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="contact.html">
+                <i class="fas fa-headset navbar__icon"></i>
+                <span class="navbar__text">Contact Us</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="content__wrapper">
+        <section class="teacher-profile">
+          <h2 class="section-title">profile details</h2>
+          <div class="teacher-profile__content">
+            <div class="teacher-profile__details">
+              <img
+                class="teacher-profile__img"
+                src="./img/pic-2.jpg"
+                alt="John Doe"
+              />
+              <h3 class="teacher-profile__name">John Doe</h3>
+              <span class="teacher-profile__position">developer</span>
+            </div>
+            <div class="teacher-profile__info">
+              <div class="teacher-profile__statistic">
+                total playlists: <span>4</span>
+              </div>
+              <div class="teacher-profile__statistic">
+                total videos: <span>18</span>
+              </div>
+              <div class="teacher-profile__statistic">
+                total likes: <span>1208</span>
+              </div>
+              <div class="teacher-profile__statistic">
+                total comments: <span>52</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="courses">
+          <h2 class="section-title">courses</h2>
+          <div class="courses__wrapper">
+            <div class="courses__box courses-box">
+              <img
+                class="courses-box__thumb"
+                src="./img/thumb-1.png"
+                alt="Complete HTML tutorial"
+              />
+              <h3 class="courses-box__title">complete HTML tutorial</h3>
+              <a
+                class="btn btn-inline btn-main courses-box__view"
+                href="playlist.html"
+                >view playlist</a
+              >
+            </div>
+            <div class="courses__box courses-box">
+              <img
+                class="courses-box__thumb"
+                src="./img/thumb-2.png"
+                alt="Complete CSS tutorial"
+              />
+              <h3 class="courses-box__title">complete CSS tutorial</h3>
+              <a
+                class="btn btn-inline btn-main courses-box__view"
+                href="playlist.html"
+                >view playlist</a
+              >
+            </div>
+            <div class="courses__box courses-box">
+              <img
+                class="courses-box__thumb"
+                src="./img/thumb-3.png"
+                alt="Complete JS tutorial"
+              />
+              <h3 class="courses-box__title">complete JS tutorial</h3>
+              <a
+                class="btn btn-inline btn-main courses-box__view"
+                href="playlist.html"
+                >view playlist</a
+              >
+            </div>
+            <div class="courses__box courses-box">
+              <img
+                class="courses-box__thumb"
+                src="./img/thumb-4.png"
+                alt="Complete Bootstrap tutorial"
+              />
+              <h3 class="courses-box__title">complete Bootstrap tutorial</h3>
+              <a
+                class="btn btn-inline btn-main courses-box__view"
+                href="playlist.html"
+                >view playlist</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; Copyright @ 2022 by <span>Lorem ipsum</span> | all rights
+        reserved
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

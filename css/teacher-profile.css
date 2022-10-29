@@ -1,0 +1,42 @@
+.teacher-profile__content {
+    text-align: center;
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.teacher-profile__details {
+    margin-bottom: 2rem;
+}
+.teacher-profile__img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+.teacher-profile__name {
+    font-size: 2rem;
+    color: var(--black-color);
+    margin: 0.5rem 0;
+}
+.teacher-profile__position {
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+.teacher-profile__info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.teacher-profile__statistic {
+    font-size: 2rem;
+    color: var(--light-color);
+    flex: 1 1 25rem;
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+    padding: 1rem 3rem;
+}
+.teacher-profile__statistic span {
+    color: var(--main-color);
+}
